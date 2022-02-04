@@ -26,6 +26,7 @@ const mediaQuery = window.matchMedia('(min-width: 992px)');
 /* Bookmark list */
 function myFunction(x) {
     if(x.matches){
+        mobileMenu.classList.add("displayNone");
         for(let i=0; i<bookmarkDesc.length; i++){
             bookmarkDesc[i].addEventListener("click", function(){
                 image.setAttribute("src", "images/illustration-features-tab-" + (i+1) + ".svg");
