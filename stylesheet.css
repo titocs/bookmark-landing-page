@@ -270,19 +270,6 @@ ul > li {
     color: hsl(233, 7%, 47%);
 }
 
-ul > li::after {
-    content: "";
-    text-align: center;
-    position: absolute;
-    width: 8em;
-    height: 4px;
-    background-color: var(--Soft-Red);
-    top: 88%;
-    left: 50%;
-    margin-left: -5px;
-    transform: translateY(35%) translateX(-47%);
-}
-
 .features-description {
     display: flex;
     flex-direction: column;
