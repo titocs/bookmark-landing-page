@@ -561,6 +561,7 @@ input[type="text"]:focus {
     width: 285px;
     margin: auto;
     text-align: center;
+    border: 1px solid hsla(0, 94%, 66%, 0);
 }
 
 .contact-button:hover {
@@ -569,6 +570,7 @@ input[type="text"]:focus {
     border: 1px solid var(--Soft-Red);
     color: var(--Soft-Red);
     margin: calc(50% -1px);
+    transition: 0.3s;
 }
 
 /* ======== FOOTER =========== */
