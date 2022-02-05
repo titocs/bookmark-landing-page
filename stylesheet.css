@@ -271,7 +271,6 @@ ul > li {
 }
 
 ul > li::after {
-    display: none;
     content: "";
     text-align: center;
     position: absolute;
